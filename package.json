@@ -1,0 +1,24 @@
+{
+  "name": "Tabs",
+  "version": "1.0.0",
+  "description": "This is a vanilla javascript tab, tested with jest and sinon.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akenzua/tabs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akenzua/tabs/issues"
+  },
+  "homepage": "https://github.com/akenzua/tabs#readme",
+  "dependencies": {
+    "jest": "^24.9.0",
+    "sinon": "^7.5.0"
+  }
+}
