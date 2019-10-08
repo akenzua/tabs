@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/xhtml;  charset="UTF-8">
+        <meta content="width=device-width, initial-scale=1" name="viewport">
+        <title>Tabs</title>
+        <link rel="stylesheet" href="./css/tab.css">
+        
+    </head>
+    <body>
+        <div class="page-wrapper">
+            <div class="container">
+                <!-- Tabs -->
+                <ul id="nav-tab" class="nav" role="tab-list"  arial-label="Finances">
+                  <li class="active" role="tab aria-selected="true" aria-controls="panel-1" id="tab-1" tabindex="0">
+                    <a href="#first">First </a>
+                  </li>
+                  <li role="tab aria-selected="false" aria-controls="panel-2" id="tab-2" tabindex="-1">
+                    <a href="#second">Second </a>
+                  </li>
+                  <li role="tab aria-selected="false" aria-controls="panel-3" id="tab-3" tabindex="-1">
+                    <a href="#third">Third </a>
+                  </li>
+                  <li role="tab aria-selected="false" aria-controls="panel-4" id="tab-3" tabindex="-1">
+                    <a href="#fourth">Fourth </a>
+                  </li>
+                </ul>
+              
+                <!-- Tab Content -->
+                <div class="content-wrapper">
+                  <div class="tab-pane active" id="first" role="tabpanel" tabindex="0" aria-labelledby="tab-1">
+                    <h4>First Tab Heading</h4> 
+                    <p>First Tab Content</p> 
+                  </div>
+                  <div class="tab-pane" id="second" role="tabpanel" tabindex="0" aria-labelledby="tab-2">
+                    <h4>Second Tab Heading</h4>
+                    <p>Second Tab Content</p>
+                  </div>
+                  <div class="tab-pane" id="third" role="tabpanel" tabindex="0" aria-labelledby="tab-3">
+                    <h4>Third Tab Heading</h4>
+                    <p>Third Tab Content</p>
+                  </div>
+                  <div class="tab-pane" id="fourth" role="tabpanel" tabindex="0" aria-labelledby="tab-4">
+                    <h4>Fourth Tab Heading</h4>
+                    <p>Fourth Tab Content</p>
+                  </div>
+                </div>
+                
+              </li>
+              <script src="../src/js/loader.js"></script>
+          </div>
+    </body>
+</html>

@@ -1,0 +1,90 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: #444;
+  }
+
+  /* Grid Styles */
+  .page-wrapper{
+   max-width: 800px; 
+    margin: 0 auto;
+  }
+  .container{
+    display: flex;
+    flex-flow: column;
+    
+  }
+  #nav-tab{
+    display: flex;
+   
+  }
+  ul li{
+    flex-grow:1;
+  }
+  ul .nav{
+    display: block;
+  }
+ 
+  
+
+  /* Tab Styles */
+ 
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  ul li {
+    display: inline-flex;
+  }
+  ul li a {
+    text-decoration: none;
+    color: darkgray;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+    border-bottom: 1px solid transparent;
+  }
+  ul li a:hover {
+    color: gray;
+  }
+  .nav .active a {
+    color: slateblue;
+    border-bottom: 1px solid slateblue;
+  }
+  .nav .active a:hover {
+    border-color: transparent;
+    background: slateblue;
+    color: white;
+    
+  }
+  .nav a{
+    width: 100%;
+    text-align: center;
+  }
+  .tab-pane {
+    display: none;
+  }
+  .tab-pane.active {
+    display: block;
+  }
+  ul.nav{
+    display: inline-block
+  }
+
+  @media only screen and (min-device-width : 320px) and (max-device-width : 640px) {
+    /* Styles */
+  
+    .page{
+      max-width: 95%;
+      margin: 0 auto;
+    }
+    .content-wrapper{
+      padding: 20px;
+    }
+    .nav .active a {
+      border-color: transparent;
+      background: slateblue;
+      color: white;
+    }
+    #nav-tab{
+      border-bottom: 1px solid slateblue;
+    }
+  }
